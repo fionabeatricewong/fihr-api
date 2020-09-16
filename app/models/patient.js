@@ -29,7 +29,8 @@ const patientSchema = new mongoose.Schema({
     // type: mongoose.SchemaTypes.Phone
     type: String,
     required: true,
-    minlength: 10
+    minlength: 10,
+    maxlength: 16
   },
   email: {
     type: String,
