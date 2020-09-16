@@ -1,4 +1,5 @@
 #!/bin/bash
+# run FULLNAME="Fiona Wong" SPECIALTY="Cardiology" EMAIL="fi@fi.com" PASSWORD="fi" PASSWORD_CONFIRMATION="fi" sh curl-scripts/auth/sign-up.sh
 
 API="http://localhost:4741"
 URL_PATH="/sign-up"

@@ -1,4 +1,5 @@
 #!/bin/bash
+# run EMAIL="fi@fi.com" PASSWORD="fi" sh curl-scripts/auth/sign-in.sh
 
 API="http://localhost:4741"
 URL_PATH="/sign-in"
