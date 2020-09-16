@@ -21,15 +21,15 @@ const patientSchema = new mongoose.Schema({
   },
   gender: {
     type: String,
-    // required: true,
+    required: true,
     enum: ['female', 'male', 'unspecified'],
     default: 'unspecified'
   },
   phone: {
     // type: mongoose.SchemaTypes.Phone
     type: String,
-    required: true,
-    minlength: 10
+    required: true
+    // minlength: 10
   },
   email: {
     type: String,
