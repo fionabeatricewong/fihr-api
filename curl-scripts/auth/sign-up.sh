@@ -12,7 +12,7 @@ curl "${API}${URL_PATH}" \
     "credentials": {
       "fullName": "'"${FULLNAME}"'",
       "specialty": "'"${SPECIALTY}"'",
-      "email": "'"${EMAIL}"'",git 
+      "email": "'"${EMAIL}"'",
       "password": "'"${PASSWORD}"'",
       "password_confirmation": "'"${PASSWORD}"'"
     }
