@@ -10,7 +10,9 @@ curl "${API}${URL_PATH}/${ID}" \
 --header "Authorization: Bearer ${TOKEN}" \
 --data '{
   "patient": {
-    "full_name": "'"${FULLNAME}"'",
+    "first_name": "'"${FIRSTNAME}"'",
+    "middle_name": "'"${MIDDLENAME}"'",
+    "last_name": "'"${LASTNAME}"'",
     "dob": "'"${DOB}"'",
     "gender": "'"${GENDER}"'",
     "phone": "'"${PHONE}"'",

@@ -4,7 +4,14 @@ const mongoose = require('mongoose')
 // const mongooseTypePhone = require('mongoose-type-phone')
 
 const patientSchema = new mongoose.Schema({
-  fullName: {
+  firstName: {
+    type: String,
+    required: true
+  },
+  middleName: {
+    type: String
+  },
+  lastName: {
     type: String,
     required: true
   },
