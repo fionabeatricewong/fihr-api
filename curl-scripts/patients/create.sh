@@ -1,5 +1,5 @@
 #!/bin/bash
-# run: TOKEN="9ca950b0f676a0f326fed2e7aec66773" FIRSTNAME="Jane" LASTNAME="Doe" DOB="1990-01-01" GENDER="female" PHONE="1234567891" EMAIL="jane@doe.com" sh curl-scripts/patients/create.sh
+# run: TOKEN="9ca950b0f676a0f326fed2e7aec66773" FIRSTNAME="John" MIDDLENAME="Joe" LASTNAME="Doe" DOB="02-02-1992" GENDER="male" PHONE="9876543210" EMAIL="john@doe.com" sh curl-scripts/patients/create.sh
 
 API="http://localhost:4741"
 URL_PATH="/patients"
