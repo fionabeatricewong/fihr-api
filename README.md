@@ -53,4 +53,4 @@ DELETE | /patients/:id
 ## Images
 
 #### ERD:
-[FiHR ERD](https://imgur.com/9cfUivZ)
+![FiHR ERD](https://i.imgur.com/9cfUivZ.png)
